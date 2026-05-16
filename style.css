@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(45deg,#19171b, #003e91);
+    background: linear-gradient(to right,#19171b, #003e91);
     color: white;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -39,6 +39,9 @@ body{
     width: fit-content;
     margin: 0 auto;
     gap: 40px;
+    backdrop-filter: blur(10px);
+    border-radius: 50px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
 }
 
 .platforms{
@@ -58,7 +61,7 @@ body{
 }
 
 .platforms a:hover{
-    color: #ff7b00;
+    color: #003e91;
 }
 
 /* BOTAO PESQUISA */
@@ -67,7 +70,7 @@ body{
     height: 78px;
     border: none;
     border-radius: 50%;
-    background: linear-gradient(135deg, #ff8c00, #ff5e00);
+    background: linear-gradient(to right, #19171b, #003e91);
     color: white;
     font-size: 22px;
     cursor: pointer;
@@ -90,14 +93,14 @@ body{
 /* CARD */
 .jogo{
     width: 320px;
-    background: #1f1f1f;
+    background: linear-gradient(to right,  #19192e, #0d0d11);
     border-radius: 20px;
     overflow: hidden;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 
 .jogo:hover{
-    transform: translateY(-5px);
+    transform: scale(1.05);
 }
 
 /* IMAGEM */
