@@ -1,5 +1,5 @@
 body{
-    background: #121212;
+    background: linear-gradient(45deg,#19171b, #003e91);
     color: white;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -33,7 +33,7 @@ body{
 .platform-bar{
     display: flex;
     align-items: center;
-    background: rgba(70,70,70,0.65);
+    background: linear-gradient(to right, #041642, #19171b);
     border-radius: 50px;
     padding: 10px 10px 10px 30px;
     width: fit-content;
@@ -120,7 +120,7 @@ body{
 }
 
 .price{
-    color: #ff7b00;
+    color: #ffffff;
     font-size: 22px;
     font-weight: bold;
 }
