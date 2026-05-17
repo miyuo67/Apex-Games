@@ -81,6 +81,32 @@ body{
     transform: scale(1.05);
 }
 
+
+.login{
+    image-rendering: pixelated; /essa bomba é pixel art, entao precisa disso pra pagina nao tentar suavizar o desenho, pois acaba ficando com um aspecto borrado/
+    image-rendering: crisp-edges;
+
+    height: 75px;
+    width: 75px;
+
+    position: relative;
+    left: 400px; /* ajusta a posição */
+    bottom: 10px;
+
+    background: #003e91;
+    border: none;
+    border-radius: 50%;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+    
+}
+
+.login:hover{
+    transform: scale(1.05);
+}
+
 /* CATALOGO */
 .catalogos{
     display: flex;
