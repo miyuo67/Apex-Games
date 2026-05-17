@@ -42,6 +42,53 @@
         </div>
     </header>
 
+ <main class= "container" id="login">
+        <form> 
+            <h1>Login ApexGames</h1>
+            <div class="input-box">
+                <input placeholder="Usuário" type="email">
+                <i class="bx bxs-user"></i>
+            </div>
+            <div class="input-box">
+                <input placeholder="Senha" type="password">
+                <i class="bx bxs-lock-alt"></i>
+            </div>
+
+            <div class="remember-forgot"> 
+                <label>
+                 <input type="checkbox">
+                 Lembrar senha
+                </label>
+                <a href="#">Esqueci a senha</a>
+            </div>
+
+            <button class="vai" type="submit">Login</button>
+
+            <div class="register-link">
+                <p>Não tem uma conta? <a href="#">Cadastre agora</a></p>
+            </div>
+
+            <button class="fecha" type="button" onclick="fecharLogin()">
+                Fechar
+            </button>
+        </form>
+        
+    
+    
+    
+    </main>
+
+
+    <script>
+   function abrirLogin(){
+        document.getElementById("login").style.display = "block";
+    }
+
+    function fecharLogin(){
+        document.getElementById("login").style.display = "none";
+    }
+</script>
+
     <section class="catalogos">
         <h1>Catálogo de Jogos</h1>
      <article class="jogo">

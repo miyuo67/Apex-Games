@@ -83,7 +83,7 @@ body{
 
 
 .login{
-    image-rendering: pixelated; /essa bomba é pixel art, entao precisa disso pra pagina nao tentar suavizar o desenho, pois acaba ficando com um aspecto borrado/
+    image-rendering: pixelated; /*essa bomba é pixel art, entao precisa disso pra pagina nao tentar suavizar o desenho, pois acaba ficando com um aspecto borrado */
     image-rendering: crisp-edges;
 
     height: 75px;
@@ -93,7 +93,7 @@ body{
     left: 400px; /* ajusta a posição */
     bottom: 10px;
 
-    background: #003e91;
+    background: linear-gradient(to right, #19171b, #003e91);
     border: none;
     border-radius: 50%;
 
@@ -103,6 +103,125 @@ body{
     
 }
 
+.login:hover{
+    transform: scale(1.05);
+}
+
+/* tela de login */
+.container{
+    display: none; /* começa escondida */
+    position: fixed;
+    width: 400px;
+    height: 375px;
+    top: 50%;
+    left: 50%;
+    z-index: 20;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    padding: 30px 40px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 15px;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    justify-content: center;
+}
+
+.container h1{
+    text-align: center;
+
+}
+
+.input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input{
+    width: 75%;
+    height: 30%;
+    background-color:rgba(70, 70, 70, 0.658);;
+    border: 2px solid rgba(255, 255, 255, .2);; 
+    border-radius: 40px;
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box:hover{
+    transform: scale(1.05);
+}
+
+.vai{
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+
+.vai:hover{
+    transform: scale(1.05);
+}
+
+.fecha{
+    background-color: transparent;
+    border: 2px solid rgba(216, 7, 7, 0.514);; 
+    border-radius: 40px;
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+        
+        
+}
+
+.fecha:hover{
+    transform: scale(1.05);
+}
+
+.remember-forgot{
+    display: flex;
+    justify-content: space-between;
+}
+
+.remember-forgot label input{
+    accent-color: #fff;
+}
+
+.remember-forgot a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+        
+}
+
+.register-link{
+    text-align: center;
+}
+
+.register-link a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+.input-box input::placeholder{
+     color: #fff;
+}
+    
 .login:hover{
     transform: scale(1.05);
 }
