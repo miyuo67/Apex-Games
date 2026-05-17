@@ -117,7 +117,7 @@ body{
     left: 50%;
     z-index: 20;
     transform: translate(-50%, -50%);
-    background-color: transparent;
+    background: linear-gradient(to top, #19171b, #003e91);
     backdrop-filter: blur(10px);
     padding: 30px 40px;
     border: 2px solid rgba(255, 255, 255, .2);
