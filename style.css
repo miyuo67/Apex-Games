@@ -5,12 +5,14 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* HEADER */
+h1, h2, .title {
+    font-family: 'Orbitron', Arial, sans-serif;
+}
+
 .top-header{
     padding: 20px 50px;
 }
 
-/* MENU SUPERIOR */
 .menu-top{
     display: flex;
     justify-content: center;
