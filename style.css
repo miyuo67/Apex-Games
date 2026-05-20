@@ -348,3 +348,13 @@ h1, h2, .title {
     gap: 15px;
     text-align: center;
 }
+
+.curriculos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    text-align: center;
+}
