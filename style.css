@@ -17,11 +17,10 @@ h1, h2, .title {
 .menu-top{
     display: flex;
     justify-content: center;
-    gap: 30px;
-    margin-bottom: 25px;
-    position: relative;
-    left: 65px;
-    
+
+    gap: 40px;
+
+    margin-bottom: 35px;
 }
 
 .menu-top a{
@@ -43,7 +42,7 @@ h1, h2, .title {
 
     gap: 15px;
 
-    margin-top: 40px;
+    width: 100%;
 }
 
 .platforms{
@@ -51,28 +50,51 @@ h1, h2, .title {
     align-items: center;
     justify-content: center;
 
-    gap: 40px;
+    gap: 35px;
 
-    width: 420px;
+    width: fit-content;
+
+    padding: 0 35px;
+
     height: 78px;
 
-    background: rgba(20,20,20,0.75);
+    background: rgba(10,10,10,0.85);
 
     border-radius: 50px;
+
+    margin: 0 auto;
+}
+
+.platforms:hover{
+    transform: translateY(-2px);
+
+    box-shadow:
+    0 0 30px rgba(0,50,255,0.15);
 }
 
 .platforms a{
     color: white;
     text-decoration: none;
+
     display: flex;
     align-items: center;
+
     gap: 8px;
+
     font-size: 18px;
+    font-weight: 500;
+
     transition: 0.3s;
 }
 
 .platforms a:hover{
-    color: #003e91;
+    color: #3b82f6;
+
+    transform: scale(1.05);
+}
+
+.platforms i{
+    font-size: 20px;
 }
 
 
