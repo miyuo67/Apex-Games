@@ -11,6 +11,7 @@ h1, h2, .title {
 
 .top-header{
     padding: 20px 50px;
+    
 }
 
 .menu-top{
@@ -18,6 +19,9 @@ h1, h2, .title {
     justify-content: center;
     gap: 30px;
     margin-bottom: 25px;
+    position: relative;
+    left: 65px;
+    
 }
 
 .menu-top a{
@@ -75,7 +79,7 @@ h1, h2, .title {
 .login{
     image-rendering: pixelated; /*essa bomba é pixel art, entao precisa disso pra pagina nao tentar suavizar o desenho, pois acaba ficando com um aspecto borrado */
     image-rendering: crisp-edges;
-
+    color: white;
     height: 75px;
     width: 75px;
 
@@ -117,7 +121,7 @@ h1, h2, .title {
     justify-content: center;
 }
 
-.container h2{
+.container h1{
     text-align: center;
 
 }
@@ -168,12 +172,16 @@ h1, h2, .title {
     outline: none;
     font-size: 16px;
     color: #fff;
-        
+    cursor: pointer;
         
 }
 
 .fecha:hover{
     transform: scale(1.05);
+    box-shadow:
+    0 0 25px rgba(255, 30, 0, 0.35);
+    border-color:
+    rgba(255, 0, 0, 0.35);
 }
 
 .remember-forgot{
