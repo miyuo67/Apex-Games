@@ -12,7 +12,7 @@ body{
 
 .cadastro-container{
     width: 400px;
-    height: 460px;
+    height: 500px;
     background: linear-gradient(to top, #19171b, #003e91);
     backdrop-filter: blur(10px);
     padding: 30px 40px;
@@ -68,4 +68,23 @@ body{
 
 .vai:hover{
     transform: scale(1.05);
+}
+
+.fecha{
+    position: absolute;
+    bottom: 15px;
+    left: 40px;
+    background-color: transparent;
+    border: 2px solid #072661;
+    color: #fff;
+    border-radius: 40px;
+    outline: none;
+    font-size: 16px;
+}
+
+.fecha:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #fff;
+    color: #fff;
+    cursor: pointer;
 }
