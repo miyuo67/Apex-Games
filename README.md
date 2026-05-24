@@ -6,6 +6,6 @@ A Apex Games Store foi desenvolvida com o objetivo de simular uma plataforma de 
 O projeto possui interface inspirada em lojas modernas de games, com foco em: Navegação intuitiva, organização dos jogos por categorias, layout responsivo, destaque para lançamentos e tendências, experiência visual voltada ao público gamer  
 
 Participantes:
-Mikael André Ortiz Pelegrino
-João Gabriel Marques de Miranda
+Mikael André Ortiz Pelegrino,
+João Gabriel Marques de Miranda,
 Daniel Cintra Henrique Delmônico
