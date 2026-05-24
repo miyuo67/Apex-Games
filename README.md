@@ -9,3 +9,5 @@ Participantes:
 Mikael André Ortiz Pelegrino,
 João Gabriel Marques de Miranda,
 Daniel Cintra Henrique Delmônico
+
+Link do github pages: https://miyuo67.github.io/Apex-Games/
