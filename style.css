@@ -190,7 +190,7 @@ h1, h2, .title {
 
 .fecha{
     background-color: transparent;
-    border: 2px solid rgba(216, 7, 7, 0.514);; 
+    border: 2px solid #072661;
     border-radius: 40px;
     outline: none;
     font-size: 16px;
@@ -202,9 +202,8 @@ h1, h2, .title {
 .fecha:hover{
     transform: scale(1.05);
     box-shadow:
-    0 0 25px rgba(255, 30, 0, 0.35);
-    border-color:
-    rgba(255, 0, 0, 0.35);
+    0 0 25px #072661;
+    border-color:#072661;
 }
 
 .remember-forgot{

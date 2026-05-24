@@ -76,11 +76,15 @@ body{
     left: 40px;
     background-color: transparent;
     border: 2px solid #072661;
-    color: #fff;
-    border-radius: 40px;
+    font-size: 16px;
+    border-radius: 45px;
     outline: none;
     font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white !important;
 }
+
 
 .fecha:hover{
     transform: scale(1.05);
