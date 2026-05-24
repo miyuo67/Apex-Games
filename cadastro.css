@@ -12,7 +12,7 @@ body{
 
 .cadastro-container{
     width: 400px;
-    height: 500px;
+    min-height: 560px;
     background: linear-gradient(to top, #19171b, #003e91);
     backdrop-filter: blur(10px);
     padding: 30px 40px;
