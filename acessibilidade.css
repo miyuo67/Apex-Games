@@ -17,3 +17,54 @@
     cursor: pointer;
     font-weight: 700;
 }
+
+.controles-acessibilidade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+
+.grupo-acessibilidade {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    border: 1px solid #ffffff;
+    padding: 8px;
+}
+
+.grupo-acessibilidade legend {
+    padding: 0 5px;
+}
+
+.controle-acessibilidade {
+    min-height: 44px;
+    padding: 8px 12px;
+    border: 2px solid #ffffff;
+    background: #111111;
+    color: #ffffff;
+    cursor: pointer;
+    font: inherit;
+}
+
+.opcao-acessibilidade {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    min-height: 44px;
+    padding: 4px 8px;
+}
+
+.opcao-acessibilidade input {
+    width: 20px;
+    height: 20px;
+}
+
+.status-texto {
+    min-width: 4.5em;
+    text-align: center;
+    font-weight: 700;
+}
