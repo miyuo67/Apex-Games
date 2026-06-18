@@ -1,3 +1,30 @@
+:root {
+    --escala-texto: 1;
+    --entrelinhas: normal;
+    --espaco-paragrafos: 1em;
+    --espaco-letras: 0;
+    --espaco-palavras: 0;
+}
+html {
+    font-size: calc(100% * var(--escala-texto));
+}
+
+body {
+    overflow-x: hidden;
+}
+body,
+
+body * {
+    max-width: 100%;
+    line-height: var(--entrelinhas);
+    letter-spacing: var(--espaco-letras);
+    word-spacing: var(--espaco-palavras);
+    overflow-wrap: break-word;
+}
+body p {
+    margin-bottom: var(--espaco-paragrafos);
+}
+
 .barra-acessibilidade {
     position: relative;
     z-index: 30;
