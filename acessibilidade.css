@@ -95,3 +95,20 @@ body p {
     text-align: center;
     font-weight: 700;
 }
+
+/* espaçamento */
+body.entrelinhas-acessiveis {
+    --entrelinhas: 1.5;
+}
+
+body.paragrafos-acessiveis {
+    --espaco-paragrafos: 2em;
+}
+
+body.letras-acessiveis {
+    --espaco-letras: 0.12em;
+}
+
+body.palavras-acessiveis {
+    --espaco-palavras: 0.16em;
+}
