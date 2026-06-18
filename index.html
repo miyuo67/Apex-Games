@@ -8,9 +8,47 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="acessibilidade.css">
+    <script src="acessibilidade.js" defer></script>
     <title>Apex Games Store</title>
 </head>
 <body>
+
+<details class="barra-acessibilidade">
+    <summary>Opções de acessibilidade</summary>
+
+    <div class="controles-acessibilidade">
+        <fieldset class="grupo-acessibilidade">
+            <legend>Visual</legend>
+            <label class="opcao-acessibilidade" for="contraste">
+                <input type="checkbox" id="contraste"> Alto contraste </label>
+        </fieldset>
+        <fieldset class="grupo-acessibilidade">
+            <legend>Espaçamento do texto</legend>
+            <label class="opcao-acessibilidade" for="entrelinhas">
+                <input type="checkbox" id="entrelinhas"> Entrelinhas </label>
+            <label class="opcao-acessibilidade" for="paragrafos"> 
+                <input type="checkbox" id="paragrafos"> Parágrafos </label>
+            <label class="opcao-acessibilidade" for="letras"> 
+                <input type="checkbox" id="letras"> Letras </label>
+            <label class="opcao-acessibilidade" for="palavras"> 
+                <input type="checkbox" id="palavras"> Palavras</label>
+        </fieldset>
+        <fieldset class="grupo-acessibilidade">
+            <legend>Tamanho do texto</legend>
+            <button class="controle-acessibilidade" id="diminuir-texto" type="button" aria-label="Diminuir tamanho do texto"> A- </button>
+            <output class="status-texto" id="status-texto" aria-live="polite"> 100% </output>
+            <button class="controle-acessibilidade" id="aumentar-texto" type="button" aria-label="Aumentar tamanho do texto"> A+ </button>
+        </fieldset>
+
+        <button
+            class="controle-acessibilidade"
+            id="restaurar-acessibilidade"
+            type="button">
+            Restaurar
+        </button>
+    </div>
+</details>
 
     <header class="top-header">
         <nav class="menu-top">
