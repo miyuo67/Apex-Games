@@ -112,3 +112,43 @@ body.letras-acessiveis {
 body.palavras-acessiveis {
     --espaco-palavras: 0.16em;
 }
+
+body.alto-contraste {
+    background: #000000 !important;
+    color: #ffffff !important;
+}
+
+body.alto-contraste .top-header,
+body.alto-contraste .platforms,
+body.alto-contraste .search-box,
+body.alto-contraste .jogo,
+body.alto-contraste .container,
+body.alto-contraste .cadastro-container,
+body.alto-contraste .rodape {
+    background: #000000 !important;
+    color: #ffffff !important;
+    border-color: #ffffff !important;
+    box-shadow: none !important;
+}
+
+body.alto-contraste a {
+    color: #ffff00 !important;
+    text-decoration: underline;
+}
+
+body.alto-contraste button,
+body.alto-contraste input {
+    background: #000000 !important;
+    color: #ffffff !important;
+    border-color: #ffffff !important;
+}
+
+body.alto-contraste input::placeholder {
+    color: #ffffff !important;
+    opacity: 1;
+}
+
+body.alto-contraste :focus-visible {
+    outline: 4px solid #00ffff !important;
+    outline-offset: 3px;
+}
