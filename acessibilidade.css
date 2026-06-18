@@ -1,0 +1,19 @@
+.barra-acessibilidade {
+    position: relative;
+    z-index: 30;
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background: #050505;
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.barra-acessibilidade summary {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-weight: 700;
+}

@@ -377,9 +377,11 @@ h1, h2, .title {
     justify-content: center;
     gap: 15px;
     text-align: center;
+    border-top: 2px solid #ffffff;
 }
 
 .curriculos {
+    
     width: 100%;
     display: flex;
     justify-content: center;
