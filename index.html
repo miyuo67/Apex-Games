@@ -131,6 +131,11 @@
                 <p>Não tem uma conta? <a href="cadastro.html">Cadastre agora</a></p>
             </div>
 
+            <div class="contas-cadastradas">
+                <h2>Contas cadastradas</h2>
+                <ul id="lista-contas"></ul>
+            </div>
+
             <button class="fecha" type="button" onclick="fecharLogin()">
                 Fechar
             </button>
@@ -145,10 +150,29 @@
     <script>
    function abrirLogin(){
         document.getElementById("login").style.display = "block";
+        mostrarContas();
     }
 
     function fecharLogin(){
         document.getElementById("login").style.display = "none";
+    }
+
+    function mostrarContas(){
+        const lista = document.getElementById("lista-contas");
+        const contas = JSON.parse(localStorage.getItem("contas")) || [];
+
+        lista.innerHTML = "";
+
+        if (contas.length === 0) {
+            lista.innerHTML = "<li>Nenhuma conta cadastrada</li>";
+            return;
+        }
+
+        contas.forEach(function(conta){
+            const item = document.createElement("li");
+            item.textContent = `${conta.nome} - ${conta.email}`;
+            lista.appendChild(item);
+        });
     }
 </script>
 

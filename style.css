@@ -129,7 +129,7 @@ h1, h2, .title {
     display: none; /* começa escondida */
     position: fixed;
     width: 400px;
-    height: 375px;
+    height: 730px;
     top: 50%;
     left: 50%;
     z-index: 20;
@@ -236,6 +236,32 @@ h1, h2, .title {
 
 .register-link a:hover {
     text-decoration: underline;
+}
+
+.contas-cadastradas {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.contas-cadastradas h2 {
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+
+.contas-cadastradas ul {
+    max-height: 90px;
+    overflow-y: auto;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contas-cadastradas li {
+    background: linear-gradient(to top, #19171b, #003e91);
+    margin-bottom: 16px;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 14px;
 }
 
 .input-box input::placeholder{
