@@ -62,14 +62,7 @@ function aplicarConfiguracao() {
 }
 
 function alterarEscala(valor) {
-    configuracao.escala = Math.min(
-        ESCALA_MAXIMA,
-        Math.max(
-            ESCALA_MINIMA,
-            configuracao.escala + valor
-        )
-    );
-
+    configuracao.escala = Math.min(ESCALA_MAXIMA, Math.max(ESCALA_MINIMA, configuracao.escala + valor));
     salvarConfiguracao();
     aplicarConfiguracao();
 }
